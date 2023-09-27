@@ -1,0 +1,307 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: scroll;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.App-header{
+  background:rgb(169, 190, 159);
+  color: aliceblue;
+  padding: 1vh;
+  text-align: center;
+}
+.area{
+  border:0 4px 0 4px solid red ;
+
+}
+.App-body{
+  height: 88vh;
+  width: 100%;
+  background-image: url("https://th.bing.com/th?id=OIP.6vt98p-M6IKAL-N1au_f_gHaE8&w=306&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2");
+  background-size: cover;
+}
+.App-footer{
+  height: 100%;
+  background: radial-gradient(circle, rgb(41, 49, 92) 0%, rgb(58, 30, 65) 52%, rgb(89, 26, 39) 100%);
+  color: antiquewhite;
+  display: flex;
+  justify-content: space-evenly;
+}
+/* Navbar.css */
+.navbar-header {
+  align-items: center;
+  background-color: transparent;
+  color: #fff;
+  padding: 5px 0;
+}
+.logo-main img{
+    height: 34px;
+    padding: 0px 13px;
+}
+.navbar-container {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social-media{
+  display: flex;
+}
+.social-media a,
+.login-section a {
+  /* border: 0px 1px 0px 1px solid pink ; */
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.login-section :hover{
+  color: antiquewhite;
+  background-color: rgb(105, 73, 38);
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 1px 6px 20px 2px rgb(95, 125, 241);
+}
+
+.contact-info span {
+  /* border: 0px 1px 0px 1px solid pink ; */
+
+  color: #fff;
+}
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.navbar-container {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-button,
+.info-button,
+.search-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.search-bar input {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.search-bar input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+/* .main-pic{
+    width: 100vw;
+    height: 30%;
+    
+    background-size: cover;
+    padding: 10px;
+    text-align: left;
+} */
+.main-pic {
+  position: relative;
+  background: linear-gradient(90deg, #007bff, #00c7ff);
+  color: #220606;
+  background: url('https://th.bing.com/th?id=OIP.a42FwNfDuIefmaGMWaSdewHaEK&w=333&h=187&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2');
+  width: 100vw;
+  height: 30%;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.main-container {
+  text-align: left;
+  padding: 15px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 800px;
+  border-left: 1px solid rgb(246 101 3);
+}
+
+.main-container h4,
+.main-container h3,
+.main-container p {
+  margin: 0;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.info_button,
+.req_button {
+  padding: 10px 20px;
+  background-color: #00c7ff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.info_button:hover,
+.req_button:hover {
+  background-color: #007bff;
+  transform: scale(1.05);
+}
+/* Styling for the main option container */
+.main-option-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+  padding: 0px 361px;
+}
+
+/* Styling for each option */
+.option1 {
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  width: 200px;
+}
+
+.option1:hover {
+  transform: translateY(-5px);
+}
+
+/* Styling for the container inside each option */
+.CONTAINER {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Styling for the image inside the container */
+.CONTAINER img {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+
+/* Styling for the heading */
+h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+/* Styling for the paragraph */
+p {
+  font-size: 14px;
+  color: #777;
+}
+.more-info-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.more-info-button:hover {
+  background-color: #0056b3;
+}
+/* Styling for the about section */
+.about-section {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+}
+
+/* Styling for the about content */
+.about-content {
+  flex: 1;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Styling for the image container */
+.about-image-container {
+  flex: 1;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+/* Styling for the fading-in image */
+.fade-in-image {
+  max-width: 100%;
+}
+
+/* Animation for the fading-in image */
+.fade-in-image.fade-in {
+  opacity: 1;
+}
+/* Styles for the container holding both elements */
+.ex-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 23vw;
+}
+
+/* Styles for the "ABOUT" content */
+
+
+/* Styles for the "More Info" link */
+.expirance a {
+  text-decoration: none;
+  color: lightblue;
+}
+
+/* Hover effect for the "More Info" link */
+.expirance a:hover {
+  text-decoration: underline;
+}
+
+/* Styles for the image container */
+.img-exp {
+  padding: 20px;
+  
+}
+
+/* Styles for the image */
+.img-exp img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect for the image */
+.img-exp img:hover {
+  transform: scale(1.1); /* Increase the image size on hover */
+}
